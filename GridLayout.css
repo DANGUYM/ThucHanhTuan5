@@ -1,0 +1,38 @@
+.grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: 'left center right';
+    /* gap: 20px; */
+    padding: 0px;
+}
+
+.left {
+    grid-area: left;
+    width: 306px;
+    background-color: rgba(255, 255, 255, 1);
+    border-right: 1px solid rgba(0, 0, 0, 0.200);
+    font-size: 50px;
+    color: aqua;
+    text-align: center;
+}
+
+.center {
+    grid-area: center;
+    width: 968px;
+    background-color: rgba(255, 255, 255, 1);
+    border-right: 1px solid rgba(0, 0, 0, 0.200);
+    font-size: 50px;
+    color: aqua;
+    text-align: center;
+}
+
+.right {
+    grid-area: right;
+    width: 640px;
+    background-color: rgba(255, 255, 255, 1);
+    /* border-right: 1px solid rgba(0, 0, 0, 0.200); */
+    font-size: 50px;
+    color: aqua;
+    text-align: center;
+}
